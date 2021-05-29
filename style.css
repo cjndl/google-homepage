@@ -1,3 +1,4 @@
+
 nav{
     display:flex;
     justify-content: flex-end;
@@ -17,7 +18,7 @@ nav{
 
 .logo{
     display:block;
-    margin:30% auto 0 auto;
+    margin:10% auto 0 auto;
 }
 .center{
     display: block;
@@ -44,4 +45,39 @@ nav{
     border-width: 0px;
     border-radius: 3px;;
     color:rgb(26,26,26);
+}
+
+.language{
+    margin-top:2rem;
+    text-align: center;
+    font-size: .8rem;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    background-color: rgba(128, 128, 128, 0.267);
+    width: 100%;
+    height:50px;
+}
+
+
+
+#left-footer li{
+    display: inline;
+    margin-right: 15px;
+    float: left;
+}
+
+
+
+#right-footer li{
+    display: inline;
+    margin-left: 15px;
+    float: right;
+}
+
+#right-footer{
+    padding-right: 15px;;
 }
