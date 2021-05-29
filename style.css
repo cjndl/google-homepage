@@ -1,3 +1,33 @@
-h1{
-    color: rgb(177, 67, 67);
+nav{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.nav-item{
+    margin-left: 30px;
+    color:rgb(26, 23, 23);
+}
+
+#nav-acc{
+    transform: scale(1.5);
+    color:rgb(6, 82, 6);
+}
+
+.logo{
+    display:block;
+    margin:30% auto 0 auto;
+}
+.center{
+    display: block;
+    margin: 0 auto;
+}
+#searchbar{
+    margin-top: 20px;
+    width:30rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    border-width: 1px;
+    border-color: gray;
 }
